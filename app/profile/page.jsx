@@ -7,8 +7,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <Link href="/profile/laksa">
-        <span>Go to Laksa Page</span>
+      <Link href="/profile/tes-sub-routes">
+        <span>Go to tes sub routes Page</span>
       </Link>
     </>
   );
