@@ -1,8 +1,8 @@
 import React from "react";
-import { Navbar } from "./Navbar";
-import { Footer } from "./Footer";
+import { Navbar } from "../Navbar";
+import { Footer } from "../Footer";
 
-export const AdminLayout = ({ children }) => {
+export const UserLayout = ({ children }) => {
   return (
     <>
       <Navbar />
