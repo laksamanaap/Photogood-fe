@@ -16,3 +16,6 @@ export default function Home() {
     </>
   );
 }
+
+// To create routes, you must create new folder, and in the folder add page.js
+// example : i want to create profile routes, so i must to create profile folder, and inside profile folder add page.js
