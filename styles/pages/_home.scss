@@ -1,0 +1,16 @@
+
+.home {
+
+    /* Example sass implementation*/
+    /* 
+    By using &, you can easily create nested selectors 
+    without having to rewrite the name of the parent selector.
+    The result of the code below is home__example, home is from .home 
+    */    
+
+    &__example {
+        color: $secondary;
+        font-size: toRem(24);
+    }
+
+}

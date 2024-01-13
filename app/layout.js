@@ -12,7 +12,12 @@ export default function RootLayout({ children }) {
     <>
       <html lang="en">
         <head>
-          <link rel="icon" href="/image/favicon.ico" /> {/* Icon Website */}
+          <link
+            rel="shortcut icon"
+            href={"/images/favicon.ico"}
+            type="image/x-icon"
+          />
+          {/* Icon Website */}
         </head>
         <body className={poppins.className}>{children}</body>
       </html>
