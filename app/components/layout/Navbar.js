@@ -9,4 +9,4 @@ export const Navbar = () => {
       <Image src={sutek} alt="sutek" />
     </div>
   );
-};
+};    
